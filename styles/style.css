@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#section-1 header {
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-top:20%;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+#section-1 header p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#section-2 h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #00B172;
+    width: fit-content;
+}
+
+#section-2 img {
+    height: 70px;
+}
+
+#section-2 h3 {
+    color: #00B172;    
+    
+}
+
+#spoty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    width: 100%
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    width: 60%;
+    color: 1A1A1A;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#section-3 {
+    background-color: #00B172;
+}
+
+.white-logo {
+    height: 90px;
+    position: absolute;
+    padding-top: 175px;
+  }
+
+.app-img {
+    height: 350px;
+}
+
+#section-3 {
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+#section-3 h2 {
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
+    width: fit-content;
+}
+
+#section-3 p {
+    width: 40%;
+}
+
+#app {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
